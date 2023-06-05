@@ -3,7 +3,7 @@ import pandas as pd
 
 # read data, 讀取資料
 
-df=pd.read_csv("data/TWSE_TW-1.csv")
+df=pd.read_csv("TWSE_TW-1.csv")
 df.fillna('', inplace=True)
 
 # set up Streamlit app, 建立應用程式
